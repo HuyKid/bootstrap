@@ -1,0 +1,214 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@media only screen and (max-width: 768px){
+    .container{
+        max-width: 720px;
+    }
+}
+@media only screen and (max-width: 576px){
+    .container{
+        max-width: 540px;
+    }
+    
+}
+.container .section-heading{
+    font-weight: bold;
+    font-size: 40px;
+}
+.container .section-subheading{
+    font-style: italic;
+    color: gray;
+}
+.portfolio-caption .portfolio-caption-heading{
+    font-weight: bold;
+    font-size: 25px;
+}
+.portfolio-caption .portfolio-caption-subheading{
+    font-style: italic;
+    color: gray;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
+.container{
+    width: 1140px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.navbar-brand{
+    width:140px;
+}
+.navbar-nav .nav-item .nav-link{
+    text-transform: uppercase;
+    color: white;
+    padding-right: 1rem;
+    font-size: larger;
+}
+.masthead{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
+    display: block;
+    /* background-size: cover; */
+    background-position: center center;
+    background-attachment: scroll;
+    padding-top: 17rem;
+    padding-bottom: 8rem;
+    text-align: center;
+}
+.masthead .container .masthead-subheading{
+    color: white;
+    font-size: 2.25rem;
+    line-height: 2rem;
+    font-style: italic;
+}
+.masthead .container .masthead-heading{
+    color: white;
+    font-size: 4.5rem;
+    text-transform: uppercase;
+    line-height: 7rem;
+}
+.masthead .container .btn-heading{
+    color: white;
+    font-size: 1.25rem;
+    padding: 1.25rem 2.5rem;
+    text-transform: uppercase;
+    background-color: #ffc800;
+    border-color: #ffc800;
+    line-height: 7rem;
+    border-radius: 6px;
+}
+#services{
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+.container >.text-center{
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+}
+.col-xl-4 .circle{
+    color: #ffc800;
+    font-size: 150px;
+}
+.col-xl-4 .icon{
+    font-size: 70px;
+    color: white;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 15%;
+
+}
+.col-xl-4 h3{
+    padding: 10px 0px 10px 0px;
+}
+#portfolio{
+    background-color: rgb(248,249,250);
+}
+.col-xl-4 .portfolio-img img{
+    width: 100%;
+}
+.timeline {
+    position: relative;
+    padding: 0;
+    list-style: none;
+}
+.timeline li{
+    display: inline-block;
+}
+.timeline-image{
+    left: 41%;
+    position: absolute;
+}
+.timeline-image img{
+    width: 85%;
+    padding: 5px;
+    background-color: #e9ecef;
+
+}
+.timeline-reverted >.timeline-panel{
+    float: left;
+    width: 41%;
+    text-align: right;
+    padding: 0 20px 20px 100px;
+}
+.timeline-inverted{
+    float: right;
+    width: 41%;
+    text-align: left;
+    padding: 0 100px 20px 20px;
+}
+.timeline-image-mid{
+    top: 300px;
+    left: 311%;
+    position: relative;
+    text-align: center;
+}
+.timeline-image-mid > .circle{
+    color: #ffc800;
+    font-size: 150px;
+}
+.timeline-image-mid >h4{
+    top: -113px;
+    margin-bottom: 20rem;
+    position: relative;
+}
+#team{
+    background-color: #e9ecef;
+}
+.team-member{
+    text-align: center;
+}
+.team-member img{
+    width: 65%;
+    border: 0.5rem solid rgba(0, 0, 0, 0.1);
+}
+.team-member .btn-social {
+    height: 2.5rem;
+    width: 2.5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border-radius: 100%;
+}
+.row .p-title{
+    margin: 3rem 0rem 4rem 0rem;
+}
+.img-brand{
+    height: 2.75rem;
+}
+.row-brand{
+    text-align: center;
+}
+#contact{
+    background-color: #212529;
+    background-image: url(	https://startbootstrap.github.io/startbootstrap-agency/assets/img/map-image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.form-group >.form-control-all{
+    height: 146px;
+}
+.btn-submit{
+    color: white;
+    font-size: 1.25rem;
+    padding: 1.25rem 2.5rem;
+    text-transform: uppercase;
+    background-color: #ffc800;
+    border-color: #ffc800;
+    border-radius: 6px;
+}
+.footer .btn-social {
+    height: 2.5rem;
+    width: 2.5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border-radius: 100%;
+}
+.row >.text-end{
+    text-align: right;
+}
